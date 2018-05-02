@@ -20,6 +20,7 @@ TEST(TicTacToeBoardTest, sanityCheck)
 	TicTacToeBoard obj;
 	ASSERT_TRUE(true);
 	ASSERT_NE('?', obj.placePiece(2, 1));
+	ASSERT_EQ('?', obj.placePiece(-3, -3));
 	ASSERT_NE(' ', obj.placePiece(-1, 0));
 	ASSERT_NE(' ', obj.placePiece(-3, 2));
 	ASSERT_EQ('?', obj.getPiece(-4, 3));

@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Erikq1994/microservices-demo.svg?branch=master)](https://travis-ci.org/Erikq1994/microservices-demo)
+
 # TicTacToeBoard
 
 ## Associated Enumerated Types
